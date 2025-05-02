@@ -23,13 +23,18 @@ export default function ResultsShowScreen({ route }) {
 
   return (
     <View>
-      <Text>{result.name}</Text>
-      <Text>{result.phone}</Text>
+      <Text style = {styles.title}>{result.name}</Text>
+      <Text style = {styles.phone}>{result.phone}</Text>
+      {result.is_closed ? (
+        <Image style={styles.open} source={require('../../Assets/icon/delivery.png')} ></Image>
+      ) : (
+        <Image style={styles.close} source={require('../../Assets/icon/delivery.png')} ></Image>
+      )}
       <FlatList
         data={result.photos}
         renderItem={({ item }) => {
           return (
-            <Image style={{ width: 50, height: 50 }} source={{ uri: item }} />
+            <Image style={styles.image} source={{ uri: item }} />
           );
         }}
       />
@@ -37,4 +42,37 @@ export default function ResultsShowScreen({ route }) {
   );
 }
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  image: {
+    height: 200,
+    width: 400,
+    marginVertical: 10,
+    marginHorizontal: 10,
+    borderRadius: 10,
+  },
+  title: {
+    alignSelf: 'center',
+    fontSize: 20,
+    fontWeight: 'bold',
+    marginLeft: 10,
+    marginTop: 10,
+  },
+  phone: {
+    alignSelf: 'center',
+    fontSize: 16,
+    marginLeft: 10,
+    marginTop: 5,
+  },
+  open: {
+    alignSelf: 'center',
+    width: 50,
+    height: 50,
+    marginTop: 10,
+  },
+  close: {
+    alignSelf: 'center',
+    width: 50,
+    height: 50,
+    marginTop: 10,
+  },
+});

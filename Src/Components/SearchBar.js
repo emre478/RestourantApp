@@ -1,7 +1,7 @@
 import {StyleSheet, Text, TextInput, View, Image} from 'react-native';
 import React from 'react';
 
-export default function SearchBar() {
+export default function SearchBar({term,onTermChange, onTermSubmit}) {
   return (
     <View style={styles.backgroundStyle}>
       <Image
@@ -13,6 +13,9 @@ export default function SearchBar() {
         placeholder="Ara"
         autoCorrect={false}
         autoCapitalize="none"
+        value={term}
+        onChangeText={onTermChange}
+        onEndEditing={onTermSubmit}
       />
     </View>
   );
