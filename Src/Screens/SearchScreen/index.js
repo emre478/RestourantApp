@@ -4,7 +4,7 @@ import SearchBar from '../../Components/SearchBar';
 import ResultsList from '../../Components/ResultsList';
 import useResults from '../../Hooks/useResults';
 
-export default function index() {
+export default function SearchScreen() {
   const [searchapi, results] = useResults();
   console.log(results);
 
@@ -16,11 +16,12 @@ export default function index() {
   return (
     <View>
       <SearchBar />
-      <ResultsList title = 'Ucuz Restorantlar' results={filterResultsByPrice('₺')} />
-      <ResultsList title = 'Uygun Restorantlar' results={filterResultsByPrice('₺₺')} />
-      <ResultsList title = 'Pahalı Restorantlar' results={filterResultsByPrice('₺₺₺')} />
+      <ResultsList title='Ucuz Restorantlar' results={filterResultsByPrice('₺')} />
+      <ResultsList title='Uygun Restorantlar' results={filterResultsByPrice('₺₺')} />
+      <ResultsList title='Pahalı Restorantlar' results={filterResultsByPrice('₺₺₺')} />
     </View>
   );
 }
+
 
 const styles = StyleSheet.create({});

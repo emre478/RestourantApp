@@ -20,12 +20,12 @@ export default function SearchBar() {
 
 const styles = StyleSheet.create({
   backgroundStyle: {
-    top: 35,
+    top: 10,
     backgroundColor: 'lightgray',
     flexDirection: 'row',
-    borderRadius: 5,
+
     margin: 10,
-    height: 40,
+    height: 45,
     alignItems: 'center',
     borderRadius: 20,
   },
