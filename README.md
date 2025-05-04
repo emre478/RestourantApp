@@ -6,22 +6,22 @@
 
 ## 🚀 Özellikler
 
-- 🔍 Restoran arama özelliği
-- 📋 Detaylı restoran bilgileri
-- ⭐ Yorum ve puan görüntüleme
-- 🧭 Kategorilere göre sınıflandırma
-- ⚡ Hızlı ve kullanıcı dostu arayüz
+- 🔍 Restoran arama özelliği  
+- 📋 Detaylı restoran bilgileri  
+- ⭐ Yorum ve puan görüntüleme  
+- 🧭 Kategorilere göre sınıflandırma  
+- ⚡ Hızlı ve kullanıcı dostu arayüz  
 
 ---
 
 ## 📱 Ekran Görüntüleri
 
 ### 🔍 Restoran Arama
-![Restaurant Search](Src/Assets/image/RestaurantSearch.png)
+![Restaurant Search](Src/Assets/image/RestaurantSearch.png)  
 ![Restaurant Search 2](Src/Assets/image/RestaurantSearch2.png)
 
 ### 📋 Restoran Detayları
-![Restaurant Details](Src/Assets/image/RestaurantDetails.png)
+![Restaurant Details](Src/Assets/image/RestaurantDetails.png)  
 ![Restaurant Details 2](Src/Assets/image/RestaurantDetails2.png)
 
 ### 🏠 Ana Sayfa
@@ -44,5 +44,5 @@
 ### 1. Depoyu klonlayın:
 
 ```bash
-git clone https://github.com/kullaniciadi/RestaurantApp.git
+git clone https://github.com/emre478/RestaurantApp.git
 cd RestaurantApp
