@@ -17,16 +17,15 @@
 ## 📱 Ekran Görüntüleri
 
 ### 🔍 Restoran Arama
-![Restaurant Search](Src/Assets/image/RestaurantSearch.png)  
-![Restaurant Search 2](Src/Assets/image/RestaurantSearch2.png)
+![Image](https://github.com/user-attachments/assets/72ef9536-bba2-456e-8d81-e9bb9553b9cf) 
+![Image](https://github.com/user-attachments/assets/8ca0504d-f46d-4c45-aa34-2e2784cf2597)
 
 ### 📋 Restoran Detayları
-![Restaurant Details](Src/Assets/image/RestaurantDetails.png)  
-![Restaurant Details 2](Src/Assets/image/RestaurantDetails2.png)
+![Image](https://github.com/user-attachments/assets/bcd559c3-60d6-471e-a43c-782a2ca31538)
+![Image](https://github.com/user-attachments/assets/0b2e0314-11ea-47d8-bb99-d70a0797850d)
 
 ### 🏠 Ana Sayfa
-![Home Page](Src/Assets/image/homePage.png)
-
+![Image](https://github.com/user-attachments/assets/11862b7c-5ef9-49cd-a57c-580b412e7dec)
 ---
 
 ## 🛠️ Kullanılan Teknolojiler
