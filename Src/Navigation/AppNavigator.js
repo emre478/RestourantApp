@@ -18,7 +18,7 @@ const AppNavigator = () => {
         <Stack.Screen
           name="ResultShow"
           component={ResultShowScreen}
-          options={{title: 'Restaurant Details'}}
+          options={{title: 'Restaurant Bilgileri'}}
         />
       </Stack.Navigator>
     </NavigationContainer>
